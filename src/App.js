@@ -1,19 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as React from 'react';
-import { AlertExample } from './components/AlertExample';
 import { NavbarBootstrap } from './components/NavbarBootstrap';
 import { Skills } from './components/Skills';
-import { Footer } from './components/Footer';
-import { About } from './components/About';
-import { Contact } from './components/Contact';
-import { Works } from './components/Works';
-import { AboutMe } from './components/AboutMe';
+import { Footer } from './components/Footer/Footer.jsx';
+import { About } from './components/Hero/Hero';
+import { Contact } from './components/Contact/Contact.jsx';
+import { Works } from './components/Works/Works.jsx';
+import { AboutMe } from './components/AboutMe/AboutMe.jsx';
 
 function App() {
   return (
-    <div className="App ">
+    <div className="App container ">
       <header className="App-header">
         <NavbarBootstrap/>
         <About/>
@@ -21,8 +19,6 @@ function App() {
         <Skills/>
         <Works/>
         <Contact/>
-
-      {/*  <AlertExample/> */}
       </header>
       <Footer/>
     </div>

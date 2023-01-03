@@ -1,11 +1,11 @@
 import Button from 'react-bootstrap/Button';
-
+import "./Contact.css"
 
 export const Contact = () => {
 
   return (
 
-    <section id="contact" className="hero text-center ps-0 pb-5" >
+    <section id="contact" className="contact  ps-0 pb-5" >
   <div>
     <h1 className='fs-6'> Contact. </h1>
   </div>

@@ -6,21 +6,21 @@ import { BsArrowBarRight } from "react-icons/bs";
 
 export const NavbarBootstrap = () => {
   return (
-    <Navbar collapseOnSelect fixed="top" expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect fixed="top" expand="lg"  >
       <Container fluid>
-        <Navbar.Brand href="#home" className="fs-4 fw-bold">Luna Fernando Gabriel</Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Brand href="#hero" className="fs-5 fw-bold me-5 name">Luna Fernando Gabriel</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" className='toggle' />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#contact" className='fs-5 ms-3'>Contact</Nav.Link>
-            <Nav.Link href="#skills" className='fs-5'>Skills</Nav.Link>
-            <Nav.Link href="#aboutMe" className='fs-5'>About me</Nav.Link>
+            <Nav.Link href="#contact" className='fs-5 nav_element me-3'>Contact</Nav.Link>
+            <Nav.Link href="#skills" className='fs-5 nav_element me-3'>Skills</Nav.Link>
+            <Nav.Link href="#aboutMe" className='fs-5 nav_element me-3'>About me</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link eventKey={2} href="">
+            <Nav.Link eventKey={2} href="" className='nav_element'>
               Hire me
+              <BsArrowBarRight className='ms-1'/>
             </Nav.Link>
-            <BsArrowBarRight className='mt-3'/>
           </Nav>
         </Navbar.Collapse>
       </Container>

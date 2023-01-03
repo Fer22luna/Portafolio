@@ -1,0 +1,60 @@
+
+.projects {
+    margin-top: 20vh;
+  }
+  
+  .projects img {
+    width: 100vh;
+    height: auto;
+    box-shadow: 8px 7px 10px -1px rgba(52, 55, 82, 0.56);
+    -webkit-box-shadow: 8px 7px 10px -1px rgba(52, 55, 82, 0.56);
+    -moz-box-shadow: 8px 7px 10px -1px rgba(52, 55, 82, 0.56);
+    background-color: #00fff747;
+    filter: blur(2px);
+  
+  }
+  
+  @media screen and (max-width: 900px) {
+    .projects img {
+      width: 70vh;
+    }
+  }
+  
+  
+  
+  .projects img:hover {
+    filter: none;
+  }
+  
+  .projects .contenedor_map {
+    position: relative;
+  
+  
+  }
+  
+  .projects .contenedor_map div h1 {
+    color: #00FFF6;
+  
+  }
+  
+  
+  .projects .box {
+    height: 55vh;
+  
+  }
+  
+  
+  .projects .paragraph_box {
+    width: 39vw;
+    height: 25vh;
+    border: #00FFF6 1px solid;
+    float: right;
+    position: absolute;
+    right: 0px;
+    top: 120px;
+    z-index: 1000;
+    border: #00fff740 solid 1px;
+  }
+  
+  
+  

@@ -1,6 +1,6 @@
-import { projects } from "../Api/projects"
+import { projects } from "../../Api/projects"
 import { BsCodeSquare } from "react-icons/bs";
-
+import "./Works.css"
 
 export const Works = () => {
 
@@ -9,12 +9,12 @@ export const Works = () => {
   return (
     <section className="projects">
       <div className="container mt-5 text-center ">
-        <div className="">
-          <BsCodeSquare size={40} className="m-3" />
+        <div className="mt-5">
+          <BsCodeSquare size={40} className="mt-5 mb-3" />
           <h1 className=" mb-4 ">
             Apps I've Built
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+          <p className="">
             Aqui les dejo algunas Aplicaciones y trabajos que he realizado.
           </p>
         </div>
@@ -27,8 +27,8 @@ export const Works = () => {
                 <h2 className=" mb-3 fs-4">
                   {project.title}
                 </h2>
-                <div className="paragraph_box">
-                  <p className="m-3 fs-6">{project.description}</p>
+                <div className="paragraph_box bg-dark">
+                  <p className="m-3 fs-6 bg-dark">{project.description}</p>
                 </div>
               </div>
             </div>

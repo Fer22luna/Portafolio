@@ -1,14 +1,14 @@
 import Button from 'react-bootstrap/Button';
-
+import './Hero.css'
 
 
 
 export const About = () => {
 
   return (
-    <section className='about '>
-      <div className="text-start hero">
-        <div className="  items-center ">
+    <section  id='hero'>
+      <div className=" hero">
+        <div className="">
           <h1 className="fs-6">
             Hello, my name is.
           </h1>
@@ -27,8 +27,7 @@ export const About = () => {
           </p>
         </div>
         <div className="">
-          <Button variant=''>Work with me</Button>
-        {/*  <Button variant=''>See my Past Work</Button> */}
+          <Button variant='' className='mt-3'>Work with me</Button>
         </div>
       </div>
     </section >
