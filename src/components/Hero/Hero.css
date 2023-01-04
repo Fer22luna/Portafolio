@@ -26,17 +26,18 @@
     opacity: 0.4;
 }
 
-.hero button {
+.hero div a {
     color: #00FFF6;
     border: #00FFF6 solid 1px;
     border-radius: 3px !important;
     padding: 17px 20px 17px 20px;
     font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
 
 
 }
 
-.hero button:hover {
+.hero div  a:hover {
     color: #00FFF6;
     border: #00FFF6 solid 1px;
     border-radius: 3px !important;

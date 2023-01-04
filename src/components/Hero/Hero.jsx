@@ -5,6 +5,7 @@ import './Hero.css'
 
 export const Hero = () => {
 
+
   return (
     <section  id='hero'>
       <div className=" hero">
@@ -26,8 +27,8 @@ export const Hero = () => {
             Laborum, voluptas natus?
           </p>
         </div>
-        <div className="" >
-          <Button variant='' className='mt-3'>Work with me</Button>
+        <div className="mt-5" >
+          <a href='#contact'  className='fs-6'>Work with me</a>
         </div>
       </div>
     </section >
