@@ -16,3 +16,13 @@
 .map_container {
     background-color: #282c34;
 }
+
+
+
+@media screen and (max-width: 600px) {
+
+.container_skills{
+    width: 60vw;
+}
+
+}

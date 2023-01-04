@@ -44,7 +44,7 @@
     background-color: #00fff74d;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
 
     .hero {
         margin-left: 0;

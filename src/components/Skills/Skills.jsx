@@ -18,7 +18,7 @@ export const Skills = () => {
             </div>
             <div className=" d-flex flex-wrap justify-content-center mt-5  map_container  ">
                 {habilidades.map((skill) => (
-                    <div key={skill} className=" ms-3 mt-3">
+                    <div key={skill} className=" skill_box mx-3 mt-3">
                         <div className="bg-dark col d-flex justify-content-start align-items-center container_skills ">
                             <BsKeyboard className="mx-2 ms-3 skills_icon bg-dark" /> 
                             {skill}

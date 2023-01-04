@@ -1,5 +1,5 @@
 .contact {
-    margin-top: 40vh;
+    margin-top: 30vh;
     margin-bottom: 10vh;
     text-align: center;
 }
@@ -51,6 +51,10 @@
 
 @media screen and (max-width: 500px) {
 
+
+        .contact{
+            margin-top: 0;
+        }
 
         .contact h2 {
             font-size: 40px;

@@ -3,7 +3,7 @@ export const projects = [
 
 
 {
-    title: " Blagdaross libros - Homepage",
+    title: " Blagdaross - Homepage",
     description: "Proyecto utilizando HTML,CSS,SASS. El proyecto cuenta con 5 pages, en donde se simula una homepage de una libreria online, solo esta realizado la parte estetica.",
     image: require("../images/Blagdaros.png"),
     link:"",
@@ -21,7 +21,7 @@ export const projects = [
 {
     title: " E-commerce with JavaScript",
     description: "Proyecto utilizando HTML,CSS y Javascript. Uno de mis primeros proyectos simulando un carrito de comprar seleccionando productos.",
-    image: require("../../src/images/Portafolio.png"),
+    image: require("../../src/images/Javascript.png"),
     link:"",
     id:3,
 

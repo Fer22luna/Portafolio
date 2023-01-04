@@ -26,7 +26,7 @@ export const Hero = () => {
             Laborum, voluptas natus?
           </p>
         </div>
-        <div className="">
+        <div className="" >
           <Button variant='' className='mt-3'>Work with me</Button>
         </div>
       </div>

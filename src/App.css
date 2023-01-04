@@ -8,26 +8,20 @@
   padding: 0;
   box-sizing: border-box;
   background-color: #282c34;
-
 }
 
 .App-header {
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-
-
 .navbar_container{
   font-family: 'Roboto Mono', monospace;
-
 }
 
 .nav_element{
   color: white !important;
   opacity: 0.7;
   font-size: 15;
-
 }
 
 .nav_element:hover{

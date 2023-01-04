@@ -7,7 +7,7 @@
 }
 
 .projects img {
-  width: 100vh;
+  width: 50vw;
   height: auto;
   box-shadow: 8px 7px 10px -1px rgba(52, 55, 82, 0.56);
   -webkit-box-shadow: 8px 7px 10px -1px rgba(52, 55, 82, 0.56);
@@ -26,6 +26,8 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 10vh;
+  margin-left: 5vw;
+  margin-right: vw;
 }
 
 .projects .contenedor_map div h1 {
@@ -49,8 +51,8 @@
 
 
 .projects .paragraph_box {
-  width: 39vw;
-  height: 25vh;
+  width: 38vw;
+  height: auto;
   float: right;
   position: absolute;
   right: 0px;
@@ -72,6 +74,10 @@
     margin-top: 0;
   }
 
+  .projects .contenedor_map div h2 {
+    font-size: 18px !important;
+  }
+
   .projects .box {
     position: relative;
     align-items: center;
@@ -90,6 +96,20 @@
 
 
 @media screen and (max-width: 600px) {
+  .projects img {
+    width: 50vh;
+  }
 
+  .projects .contenedor_map div h2 {
+    font-size: 13px !important;
+  }
 
+  .projects .paragraph_box {
+    width: 80vw;
+    height: auto;
+    position: relative;
+    border: #00fff740 solid 1px;
+    top: 0;
+
+  }
 }
