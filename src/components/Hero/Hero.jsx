@@ -3,7 +3,7 @@ import './Hero.css'
 
 
 
-export const About = () => {
+export const Hero = () => {
 
   return (
     <section  id='hero'>

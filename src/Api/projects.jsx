@@ -11,8 +11,8 @@ export const projects = [
 
 },
 {
-    title: " Blagdaross libros -  e-commerce",
-    description: "Proyecto utilizando HTML,CSS,SASS,REACT,FIREBASE",
+    title: " React e-commerce",
+    description: "Proyecto utilizando HTML,CSS,SASS,REACT,FIREBASE. Un e-commerce de venta de libros, en donde tiene un carrito de comprar. Luego efectuando la compra y su id en Firebase",
     image: require("../images/projectReact.png"),
     link:"",
     id:2,
@@ -20,7 +20,7 @@ export const projects = [
 },
 {
     title: " E-commerce with JavaScript",
-    description: "Proyecto utilizando HTML,CSS y Javascript.",
+    description: "Proyecto utilizando HTML,CSS y Javascript. Uno de mis primeros proyectos simulando un carrito de comprar seleccionando productos.",
     image: require("../../src/images/Portafolio.png"),
     link:"",
     id:3,
@@ -28,7 +28,7 @@ export const projects = [
 },
 {
     title: " Portafolio",
-    description: "Proyecto utilizando HTML,CSS y REACT .",
+    description: "Proyecto utilizando HTML,CSS y REACT. El portafolio que estan viendo ahora, es la primera version",
     image: require("../../src/images/Portafolio.png"),
     link:"",
     id:4,

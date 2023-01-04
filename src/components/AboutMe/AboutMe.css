@@ -1,11 +1,19 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
 .about_me {
-    margin-top: 10vh;
-  
+    margin-top: 10vh;  
   }
-  
 
 
+ .about_me_title{
+  font-family: 'Roboto Mono', monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+ } 
   .about_me_content {
     position: relative;
     z-index: 1;
@@ -13,7 +21,6 @@
     align-items: flex-start;
     justify-content: center;
     flex-direction: row;
-  
   }
   
   .about_me_img {
@@ -34,14 +41,9 @@
     text-align: start;
     opacity: 0.6;
     padding: 40px 50px 50px 50px;
+    font-size: 20px;
+    line-height: 35px;
   }
-  
-  
-  
-  
-  
-  
-  
   
   @media screen and (max-width: 900px) {
   
@@ -53,7 +55,6 @@
     .about_me_content {
       flex-direction: column-reverse;
       align-items: center;
-  
     }
   
     .about_me_img {
@@ -74,10 +75,8 @@
       opacity: 0.6;
       font-size: 20px;
       margin-top: 70px;
+      line-height: 30px;
     }
-  
-  
-  
   }
   
   
@@ -108,6 +107,7 @@
   
   .about_me_text span {
     color: #00FFF6;
+    font-weight: bolder;
   }
   
   .about_me_title h1 {

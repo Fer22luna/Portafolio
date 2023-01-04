@@ -5,19 +5,21 @@
 
 .hero h1 {
     color: #00FFF6;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .hero h2 {
     font-size: 60px;
     color: white;
     opacity: 0.9;
+    font-family: 'Roboto', sans-serif;
 }
 
 .hero h3 {
     font-size: 50px;
     margin-bottom: 35px;
     opacity: 0.6;
-
+    font-family: 'Roboto', sans-serif;
 }
 
 .hero p {
@@ -29,6 +31,8 @@
     border: #00FFF6 solid 1px;
     border-radius: 3px !important;
     padding: 17px 20px 17px 20px;
+    font-family: 'Roboto Mono', monospace;
+
 
 }
 

@@ -1,60 +1,95 @@
-
 .projects {
-    margin-top: 20vh;
-  }
-  
+  margin-top: 20vh;
+}
+
+.projects_title{
+  font-family: 'Roboto Mono', monospace;
+}
+
+.projects img {
+  width: 100vh;
+  height: auto;
+  box-shadow: 8px 7px 10px -1px rgba(52, 55, 82, 0.56);
+  -webkit-box-shadow: 8px 7px 10px -1px rgba(52, 55, 82, 0.56);
+  -moz-box-shadow: 8px 7px 10px -1px rgba(52, 55, 82, 0.56);
+  background-color: #00fff747;
+  filter: blur(2px);
+}
+
+.projects img:hover {
+  filter: none;
+}
+
+.projects .contenedor_map {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10vh;
+}
+
+.projects .contenedor_map div h1 {
+  color: #00FFF6;
+  font-family: 'Roboto Mono', monospace;
+
+}
+
+.projects .contenedor_map div h2 {
+  font-family: 'Roboto Mono', monospace;
+
+}
+
+.projects .box {
+  height: 55vh;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: end;
+}
+
+
+.projects .paragraph_box {
+  width: 39vw;
+  height: 25vh;
+  float: right;
+  position: absolute;
+  right: 0px;
+  top: 120px;
+  z-index: 1000;
+  border: #00fff740 solid 1px;
+}
+
+
+
+@media screen and (max-width: 1000px) {
   .projects img {
-    width: 100vh;
-    height: auto;
-    box-shadow: 8px 7px 10px -1px rgba(52, 55, 82, 0.56);
-    -webkit-box-shadow: 8px 7px 10px -1px rgba(52, 55, 82, 0.56);
-    -moz-box-shadow: 8px 7px 10px -1px rgba(52, 55, 82, 0.56);
-    background-color: #00fff747;
-    filter: blur(2px);
-  
-  }
-  
-  @media screen and (max-width: 900px) {
-    .projects img {
-      width: 70vh;
-    }
-  }
-  
-  
-  
-  .projects img:hover {
+    width: 70vh;
     filter: none;
   }
-  
+
   .projects .contenedor_map {
-    position: relative;
-  
-  
+    flex-direction: column;
+    margin-top: 0;
   }
-  
-  .projects .contenedor_map div h1 {
-    color: #00FFF6;
-  
-  }
-  
-  
+
   .projects .box {
-    height: 55vh;
-  
+    position: relative;
+    align-items: center;
+
   }
-  
-  
+
   .projects .paragraph_box {
-    width: 39vw;
-    height: 25vh;
-    border: #00FFF6 1px solid;
-    float: right;
-    position: absolute;
-    right: 0px;
-    top: 120px;
-    z-index: 1000;
+    width: 50vw;
+    height: auto;
+    position: relative;
     border: #00fff740 solid 1px;
+    top: 0;
+
   }
-  
-  
-  
+}
+
+
+@media screen and (max-width: 600px) {
+
+
+}

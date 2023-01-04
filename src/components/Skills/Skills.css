@@ -1,0 +1,18 @@
+.skills {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container_skills {
+    border: 1px solid #00FFF6;
+    padding: 14px 10px 14px 10px;
+    width: 60vh;
+    border-radius: 5px;
+}
+
+.container_skills:hover {
+    background-color: #00fff730 !important;
+}
+
+.map_container {
+    background-color: #282c34;
+}

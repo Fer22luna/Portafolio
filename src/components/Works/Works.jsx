@@ -9,7 +9,7 @@ export const Works = () => {
   return (
     <section className="projects">
       <div className="container mt-5 text-center ">
-        <div className="mt-5">
+        <div className="mt-5 projects_title">
           <BsCodeSquare size={40} className="mt-5 mb-3" />
           <h1 className=" mb-4 ">
             Apps I've Built
@@ -18,11 +18,11 @@ export const Works = () => {
             Aqui les dejo algunas Aplicaciones y trabajos que he realizado.
           </p>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className=" ">
           {projects.map((project) => {
-            return <div className="d-flex flex-lg-wrap justify-content-between align-items-center mt-5 mx-5 contenedor_map ">
+            return <div className="   mx-5 contenedor_map ">
             <a href="https://blagdaross-libros.000webhostapp.com/index.html">  <img className="img" src={project.image} /></a>
-              <div className=" box text-end d-flex flex-column  align-items-end">
+              <div className=" box ">
                 <h1 className="fs-6 mt-4">Project. # {project.id}</h1>
                 <h2 className=" mb-3 fs-4">
                   {project.title}
