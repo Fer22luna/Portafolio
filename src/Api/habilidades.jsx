@@ -1,4 +1,4 @@
 
 export const habilidades = [
-    "Html","Css","Sass", "Bootstrap", "Javascript", "React"
+    "Html","Css","Sass", "Bootstrap", "Javascript", "React","Julia"
 ];

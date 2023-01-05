@@ -22,9 +22,7 @@ export const Hero = () => {
         </div>
         <div className=''>
           <p className=" fs-6 ">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi,<br /> incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
+           Soy un desarrollador web Front-end preparado para mi primera oportunidad ,<br /> Estudiante entusiaste y autodidacta.
           </p>
         </div>
         <div className="mt-5" >

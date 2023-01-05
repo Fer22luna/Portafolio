@@ -14,7 +14,7 @@ export const projects = [
     title: " React e-commerce",
     description: "Proyecto utilizando HTML,CSS,SASS,REACT,FIREBASE. Un e-commerce de venta de libros, en donde tiene un carrito de comprar. Luego efectuando la compra y su id en Firebase",
     image: require("../images/projectReact.png"),
-    link:"",
+    link:"https://libros-alpha.vercel.app/",
     id:2,
 
 },
@@ -22,7 +22,7 @@ export const projects = [
     title: " E-commerce with JavaScript",
     description: "Proyecto utilizando HTML,CSS y Javascript. Uno de mis primeros proyectos simulando un carrito de comprar seleccionando productos.",
     image: require("../../src/images/Javascript.png"),
-    link:"",
+    link:"https://github.com/Fer22luna/nuevaEntrega",
     id:3,
 
 },
@@ -30,7 +30,7 @@ export const projects = [
     title: " Portafolio",
     description: "Proyecto utilizando HTML,CSS y REACT. El portafolio que estan viendo ahora, es la primera version",
     image: require("../../src/images/Portafolio.png"),
-    link:"",
+    link:"https://portafolio-five-jade.vercel.app/",
     id:4,
 
 }
