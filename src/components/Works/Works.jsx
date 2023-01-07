@@ -21,7 +21,7 @@ export const Works = () => {
         <div className=" mt-5">
           {projects.map((project) => {
             return <div className="contenedor_map ">
-            <a href="https://blagdaross-libros.000webhostapp.com/index.html">  <img className="img" src={project.image} /></a>
+            <a href={project.link}>  <img className="img" src={project.image} /></a>
               <div className=" box ">
                 <h1 className="fs-6 mt-4">Project. # {project.id}</h1>
                 <h2 className=" mb-3 fs-5">
