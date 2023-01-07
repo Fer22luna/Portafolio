@@ -6,7 +6,7 @@ export const projects = [
     title: " Blagdaross - Homepage",
     description: "Proyecto utilizando HTML,CSS,SASS. El proyecto cuenta con 5 pages, en donde se simula una homepage de una libreria online, solo esta realizado la parte estetica.",
     image: require("../images/Blagdaros.png"),
-    link:"",
+    link:"https://blagdaross-libros.000webhostapp.com/",
     id:1,
 
 },
