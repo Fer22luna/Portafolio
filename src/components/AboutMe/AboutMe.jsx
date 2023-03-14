@@ -10,8 +10,8 @@ export const AboutMe = () => {
                 <h1 className="text-center mt-3 ">About Me.</h1>
             </div>
             <div className="about_me_content ">
-                <div className="about_me_text">Hola !! Mi nombre es <span>Fernando Gabriel Luna</span> soy un estudiante de desarrollo web, con un perfil enfocado en el desarrollo front-end.Soy estudiante de la Lic. en Fisica en la FAMAF. Por motivos de necesidad laboral tuve que frenar mis estudios. Ahora aspiro
-                a  tener una carrera en donde pueda trabajar mi creatividad creando cosas. Actualmente me estoy formando en Back-End y en desarrollo de aplicaciones con React Native. Cuando no estoy en la computadora, disfruto leer, entrenar y escalar.
+                <div className="about_me_text">Hola !! Mi nombre es <span>Fernando Gabriel Luna</span> Estudiante de Licenciatura en Física en la FAMAF. Tuve que frenar mis estudios por necesidades laborales.
+                    En la carrera tuve contacto con la programación viendo algo básico de Fortran , Python y Julia, mas orientado al calculo numérico y estadistico. Luego realizando algunos cursos y de manera autodidacta me forme en desarrollo web Front-End con React JS. Actualmente me continuo formando en back-end con Node Js Y MongoDb . Aspiro a mi primer trabajo en el sector IT, busco adquirir mas skills y capacitarme para desarrollarme mejor en el mundo IT.
                 </div>
                 <div className="about_me_img" ></div>
             </div>

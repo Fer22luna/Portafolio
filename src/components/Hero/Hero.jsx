@@ -22,7 +22,7 @@ export const Hero = () => {
         </div>
         <div className=''>
           <p className=" fs-6 ">
-           Soy un desarrollador web Front-end preparado para mi primera oportunidad ,<br /> Estudiante entusiaste y autodidacta.
+           Soy un desarrollador Fullstack en formación, preparado para mi primera oportunidad ,<br /> Estudiante entusiaste y autodidacta.
           </p>
         </div>
         <div className="mt-5" >
