@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .contact {
     margin-top: 30vh;
     margin-bottom: 10vh;
@@ -73,3 +74,81 @@
         }
 
     }
+=======
+.contact {
+    margin-top: 10vh;
+    padding-top: 35vh;
+    margin-bottom: 20vh;
+    text-align: center;
+}
+
+.contact h1 {
+    color: #00FFF6;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.contact h2 {
+    font-size: 60px;
+    color: white;
+    opacity: 0.9;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.contact h3 {
+    font-size: 50px;
+    margin-bottom: 35px;
+    opacity: 0.6;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.contact p {
+    opacity: 0.4;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact a {
+    color: #00FFF6;
+    border: #00FFF6 solid 1px;
+    border-radius: 3px !important;
+    padding: 17px 20px 17px 20px;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: #00FFF6;
+    border: #00FFF6 solid 1px;
+    border-radius: 3px !important;
+    padding: 17px 20px 17px 20px;
+    background-color: #00fff74d;
+}
+
+@media screen and (max-width: 500px) {
+
+
+        .contact{
+            margin-top: 0;
+        }
+
+        .contact h2 {
+            font-size: 40px;
+            color: white;
+            opacity: 0.9;
+        }
+
+        .contact h3 {
+            font-size: 30px;
+            margin-bottom: 25px;
+            opacity: 0.6;
+        }
+
+        .contact p {
+            opacity: 0.4;
+        }
+
+    }
+>>>>>>> origin/master
