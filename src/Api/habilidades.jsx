@@ -1,4 +1,4 @@
 
 export const habilidades = [
-    "Html","Css","Sass", "Bootstrap", "Javascript", "React","Julia"
+    "HTML & CSS","NODE JS", "MySQL", "JAVASCRIPT", "REACT JS","ANGULAR","JAVA", "JDBC & JPA","SPRING MVC & API REST","JUNIT",
 ];

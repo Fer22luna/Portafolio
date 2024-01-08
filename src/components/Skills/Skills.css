@@ -9,12 +9,17 @@
     border-radius: 5px;
 }
 
-.container_skills:hover {
-    background-color: #00fff730 !important;
-}
-
 .map_container {
     background-color: #282c34;
+}
+
+
+.container_skills:hover {
+    background-color: #01807b !important;
+
+    .skills_icon {
+        background-color: #01807b !important;
+    }
 }
 
 
