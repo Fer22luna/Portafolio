@@ -2,7 +2,7 @@
   margin-top: 20vh;
 }
 
-.projects_title{
+.projects_title {
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -106,12 +106,19 @@
     font-size: 13px !important;
   }
 
+
   .projects .paragraph_box {
     width: 80vw;
-    height: auto;
+    height: 30vh;
+    float: right;
     position: relative;
+    z-index: 1;
     border: #00fff740 solid 1px;
-    top: 0;
-
+    overflow: hidden;
   }
+
+  .projects .expanded {
+    height: auto;
+  }
+
 }

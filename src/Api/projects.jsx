@@ -33,6 +33,14 @@ export const projects = [
     link:"https://github.com/aron8112/Proyecto-XAcademy/tree/development",
     id:4,
 
+},
+{
+    title: "API-REST-with-SPRING-Security",
+    description: "El proyecto es una aplicación desarrollada en JAVA utilizando tecnologías como Spring, Spring Security, JPA y JWT. Su funcionalidad se centra en proporcionar una arquitectura para la gestión de endpoints, diferenciando entre aquellos con acceso público y aquellos que requieren autenticación.",
+    image: require("../../src/images/Java.png"),
+    link:"https://github.com/Fer22luna/API-REST-with-SPRING-Security",
+    id:5,
+
 }
 
 

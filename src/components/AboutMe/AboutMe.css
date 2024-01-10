@@ -69,17 +69,36 @@
     }
   
     .about_me_text {
-      height: 70vh;
+      height: 110vh;
       width: 100vw;
       text-align: justify;
       opacity: 0.6;
-      font-size: 20px;
+      font-size: 18px;
       margin-top: 70px;
       line-height: 30px;
     }
   }
   
   
+  @media screen and (max-width: 500px) {
+
+    .about_me_text {
+      height: 100vh;
+      width: 100vw;
+      text-align: justify;
+      opacity: 0.6;
+      font-size: 15px;
+      margin-top: 70px;
+      line-height: 30px;
+    }
+
+
+
+  }
+
+
+
+
   .about_me_img:hover {
     background-image: url(../../images/face.jpg)
   

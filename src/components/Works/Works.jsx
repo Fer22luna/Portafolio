@@ -1,8 +1,17 @@
 import { projects } from "../../Api/projects"
 import { BsCodeSquare } from "react-icons/bs";
+import { useState } from "react";
+
+
 import "./Works.css"
 
 export const Works = () => {
+
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const handleExpandToggle = () => {
+    setIsExpanded((prevExpanded) => !prevExpanded);
+  };
 
 
 
@@ -27,8 +36,11 @@ export const Works = () => {
                 <h2 className=" mb-3 fs-5">
                   {project.title}
                 </h2>
-                <div className="paragraph_box bg-dark">
-                  <p className="m-3 fs-6 bg-dark">{project.description}</p>
+                <div className={`paragraph_box bg-dark ${
+                      isExpanded ? "expanded" : ""
+                    }`}
+                   onClick={handleExpandToggle}>
+                  <p className="m-3 fs-6 bg-dark">{project.description} </p>
                 </div>
               </div>
             </div>
