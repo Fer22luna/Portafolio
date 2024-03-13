@@ -41,6 +41,14 @@ export const projects = [
     link:"https://github.com/Fer22luna/API-REST-with-SPRING-Security",
     id:5,
 
+},
+{
+    title: "Wallet app",
+    description: "Aplicación en Angular utilizando adaptador @heavy-duty/wallet-adapter para integrar la billetera y mediante la integración con la APIs de Shyft para permitir ver historial y balance. Por otro lado integracion para poder realizar transacciones.",
+    image: require("../../src/images/silly.png"),
+    link:"https://github.com/Fer22luna/RETO-1-DutyBuilderB",
+    id:6,
+
 }
 
 
